@@ -1,0 +1,30 @@
+#include <QApplication>
+#include <MainWindow.h>
+#include <EncryptWindow.h>
+#include <DecryptWindow.h>
+#include <ResultWindow.h>
+#include <test.h>
+
+#include <deroulementcryptanalysesubstitution.h>
+
+int main(int argc, char* argv[])
+
+{
+
+    QApplication app(argc,argv);
+    //test* window= new test();
+    //encryptwindow* window= new encryptwindow();
+   mainwindow* window = new mainwindow();
+    //decryptwindow* window = new decryptwindow();
+    //QString txt = " ";
+    //resultwindow* window = new resultwindow(txt);
+   // deroulementcryptanalysesub* window = new deroulementcryptanalysesub();
+    //cout << "la clé : " << window->generate_m_key() << endl;
+
+    //DeroulementCryptanalyseSubstitution* window = new DeroulementCryptanalyseSubstitution("LOCOFNSDOLBNSFNLORSBZBCOMJKYBKVKNBRSBSYCONTFBNNBIKFOXYFCKNBFMXJYSONTBXOYSFTKLFYBTBCZBYNFYBCONNBCLBCRYONOFCJRRYBNSKNXBSFSTOZBOKLBKYOMJKYBKVTBXBSFSTOZBOKXBKSSYBKNHJKIKBSZBRLBKYCKNHFGJKJKKNBCJYSFBJKHFBNLBCSYJFCLORJFCOZXBNZDYOFMBNSZBCUBNCZBCUJSCZBLFMOUFNOSFJNBSZBCMJPBNCZBTWOTKNTBLOXBKSSYBKNBCJFYBYJMONSFIKBZONCKNYBCSOKYONSODBTDKBCKYLOCBFNBXJKYLBCKNCKNCFMXLBHOFCBYTWONUCJKCKNXJYTWBXJKYLBCOKSYBCTBCSTBIKFROFSXBKSSYBLBCKTTCZBTBSSBRSBYFBNNBCSZTFZTWOTKNROFSTJMMBFLDBKSBSTJNSYOFYBMBNSLOXLKXOYSZBCRSBCTJMMBXIKBCNJLJKLBNJKDBLONTBCSKNBRSBIKFNBCBRSBXOCBNROMFLLBXOCIKBCSFJNZBMMBNBYLBCBNRONSCTBGJKYLTBCSLONJKNJKIKFCBNJTTKXBBSTBKVIKFNJNSXOCZBXBSFSOMFBSHFBNFLCJNSLBTWJFVBNSYBCJYSFYBNSYBTLFHOSOFYBCJKSBNFYLOTWONZBLLBBSTWBEDJKCTBCSTJMMBNSTJMMBNSRSBSJNLOCOFNSDOLBNSFNJRRYBEDJKCZBCRLBKYCJKOKSYBTWJCBTBSSBRSBBVFCSBSBLLBOKCCFZONCDJSYBXOPC");
+    //window->new_text();
+
+    window->show();
+
+    return app.exec();
+}
